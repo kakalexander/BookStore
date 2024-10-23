@@ -9,7 +9,7 @@ Backend: NestJS, TypeScript, PostgreSQL for database, JWT for authentication.
 
 DevOps: Docker for containerization, CI/CD with GitHub Actions.
 
-The objective of the project is to demonstrate skills in full-stack development, from creating an interactive and responsive user interface to implementing a secure and efficient API. This project also demonstrates skills in DevOps practices, ensuring that the application is ready to be deployed in production environments.
+The objective of the project is to demonstrate skills in full-stack development, from creating an interactive and responsive user interface to implementing a secure and efficient API. This project also demonstrates skills in DevOps practices, ensuring that the application is ready to be deployed in production environments. 
 <img src="./src/assets/logo-tecnology/nestjs.svg" alt="NestJS" width="100" height="100">
 
 
