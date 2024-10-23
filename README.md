@@ -24,6 +24,7 @@
   <img src="./src/assets/logo-tecnology/docker.svg" alt="Docker" width="75" height="75">
   <img src="./src/assets/logo-tecnology/nodejs.svg" alt="NodeJS" width="75" height="75">
   <img src="./src/assets/logo-tecnology/typescript.svg" alt="TypeScript" width="75" height="75">
+  <img src="./src/assets/logo-tecnology/postgresql.svg" alt="TypeScript" width="75" height="75">
 </p>
 
 <h2>🚀 Getting Started</h2>
