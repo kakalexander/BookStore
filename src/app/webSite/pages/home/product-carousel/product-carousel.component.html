@@ -1,0 +1,26 @@
+<section class="products">
+    <div class="swiper-container">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide product" *ngFor="let book of books">
+          <div class="product-image">
+            <img [src]="book.image" alt="Product Image">
+          </div>
+          <div class="product-details">
+            <h2>{{book.name}}</h2>
+            <h3>{{book.description}}</h3>
+            <p>{{book.price | currency}}</p>
+            <div class="product-actions">
+              <button class="buy" (click)="buy(book)">
+                Buy Now
+              </button>
+              <button class="favorite" (click)="favorite(book)">
+                <span>&#9733;</span> Favorite
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
+  </section>
+  

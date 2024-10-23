@@ -1,0 +1,59 @@
+/* Estilos do Header */
+header {
+    background-color: #f8f9fa; /* Cor de fundo leve */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between; /* Espaço entre logo e links */
+    align-items: center; /* Alinhamento vertical */
+    padding: 10px 20px; /* Padding do menu */
+  }
+  
+  /* Estilos do Logo */
+  .logo img {
+    width: 100px;
+  }
+  
+  /* Estilos dos Links de Navegação */
+  .nav-links {
+    font-family: 'noto_sansregular', sans-serif; /* Fonte dos links */
+    list-style: none; /* Remove marcadores da lista */
+    margin: 0; /* Remove margem */
+    padding: 0; /* Remove padding */
+    display: flex; /* Exibe os links em linha */
+  }
+  
+  .nav-links li {
+    margin-left: 20px; /* Espaçamento entre os links */
+  }
+  
+  .nav-links a {
+    text-decoration: none; /* Remove sublinhado */
+    color: #007bff; /* Cor do texto */
+    font-weight: 500; /* Peso da fonte */
+    transition: color 0.3s; /* Transição suave para a cor */
+  }
+  
+  .nav-links a:hover {
+    color: #0056b3; /* Cor ao passar o mouse */
+  }
+  
+  /* Responsividade */
+  @media (max-width: 768px) {
+    .nav-links {
+      flex-direction: column; /* Empilha os links verticalmente em telas pequenas */
+      align-items: flex-start; /* Alinha os links à esquerda */
+      display: none; /* Oculta inicialmente */
+    }
+  
+    nav:hover .nav-links {
+      display: flex; /* Mostra os links ao passar o mouse no menu */
+    }
+  
+    .nav-links li {
+      margin: 10px 0; /* Espaçamento vertical */
+    }
+  }
+  

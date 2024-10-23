@@ -1,0 +1,57 @@
+/* Estilos do Footer */
+footer {
+    background-color: #343a40; /* Cor de fundo escura */
+    color: #ffffff; /* Cor do texto clara */
+    padding: 20px 0; /* Padding superior e inferior */
+    text-align: center; /* Centraliza o texto */
+  }
+  
+  .footer {
+    display: flex;
+    flex-direction: column; /* Organiza os elementos em coluna */
+    align-items: center; /* Alinhamento central */
+  }
+  
+  .footer__logo img {
+    width: 120px;
+  }
+  
+  .footer__links {
+    margin: 10px 0; /* Margem vertical para os links */
+  }
+  
+  .footer__links a {
+    color: #ffffff; /* Cor dos links */
+    text-decoration: none; /* Remove sublinhado */
+    margin: 0 15px; /* Espaçamento horizontal entre os links */
+    transition: color 0.3s; /* Transição suave para a cor */
+  }
+  
+  .footer__links a:hover {
+    color: #ffc107; /* Cor ao passar o mouse */
+  }
+  
+  .footer__social {
+    margin: 10px 0; /* Margem vertical para as redes sociais */
+  }
+  
+  .footer__social a {
+    color: #ffffff; /* Cor dos links sociais */
+    text-decoration: none; /* Remove sublinhado */
+    margin: 0 10px; /* Espaçamento horizontal entre os links sociais */
+    transition: color 0.3s; /* Transição suave para a cor */
+  }
+  
+  .footer__social a:hover {
+    color: #ffc107; /* Cor ao passar o mouse */
+  }
+  
+  .footer__copy {
+    margin-top: 20px; /* Margem superior para o copyright */
+  }
+  
+  .footer__copy p {
+    margin: 0; /* Remove margem */
+    font-size: 14px; /* Tamanho da fonte do copyright */
+  }
+  

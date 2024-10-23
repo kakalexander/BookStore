@@ -1,0 +1,29 @@
+.hero {
+    display: flex; /* Usa flexbox para alinhar os itens */
+    justify-content: space-between; /* Espaço entre o conteúdo e o carrossel */
+    align-items: center; /* Alinha verticalmente ao centro */
+    padding: 70px; /* Espaçamento interno */
+}
+
+.buy {
+    background-color: #FFCE1A; /* Cor de fundo */
+    border: none; /* Remove a borda padrão */
+    border-radius: 5px; /* Arredonda os cantos do botão */
+    padding: 10px 20px; /* Espaçamento interno */
+    font-size: 16px; /* Tamanho da fonte */
+    cursor: pointer; /* Muda o cursor ao passar o mouse */
+    transition: background-color 0.3s ease; /* Transição suave na mudança de cor */
+}
+.buy a {
+    font-family: 'roboto', sans-serif; /* Fonte do botão */
+    font-weight: bold;
+    color: white; /* Cor da fonte */
+    text-decoration: none; /* Remove o sublinhado do link */
+    display: block; /* Faz o link ocupar todo o espaço do botão */
+    text-align: center; /* Centraliza o texto */
+}
+
+.buy:hover {
+    background-color: #090136; /* Cor ao passar o mouse */
+}
+
