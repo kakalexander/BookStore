@@ -11,6 +11,10 @@ DevOps: Docker for containerization, CI/CD with GitHub Actions.
 
 The objective of the project is to demonstrate skills in full-stack development, from creating an interactive and responsive user interface to implementing a secure and efficient API. This project also demonstrates skills in DevOps practices, ensuring that the application is ready to be deployed in production environments.<br><br>
 <img src="./src/assets/logo-tecnology/nestjs.svg" alt="NestJS" width="75" height="75">
+<img src="./src/assets/logo-tecnology/angular.svg" alt="Angular" width="75" height="75">
+<img src="./src/assets/logo-tecnology/docker.svg" alt="Docker" width="75" height="75">
+<img src="./src/assets/logo-tecnology/nodejs.svg" alt="NodeJS" width="175" height="75">
+<img src="./src/assets/logo-tecnology/typescript.svg" alt="TypeScript" width="175" height="75">
 
 
 ## Development server
