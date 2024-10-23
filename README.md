@@ -39,6 +39,3 @@
 
 <h2>📄 License</h2>
 <p>This project is licensed under the MIT License - see the <a href="LICENSE" target="_blank">LICENSE</a> file for details.</p>
-
-<h2>📞 Contact</h2>
-<p>For any inquiries, please contact us at <a href="mailto:support@bookstore.com">support@bookstore.com</a>.</p>
