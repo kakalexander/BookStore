@@ -4,7 +4,7 @@
   Welcome to <strong>BookStore</strong>, a cutting-edge web application designed to deliver an intuitive and efficient online book purchasing experience. Leveraging modern technologies such as Angular for the front-end and NestJS for the back-end, this project aims to create a robust and scalable platform.
 </p>
 
-<img src="./src/assets/logo-tecnology/bookstore-banner.svg" alt="BookStore Banner" width="100%">
+<img src="./src/assets/logo-tecnology/BannerBookStore.svg" alt="BookStore Banner" width="100%">
 
 <h2>🌟 Key Features</h2>
 
@@ -22,8 +22,8 @@
   <img src="./src/assets/logo-tecnology/nestjs.svg" alt="NestJS" width="75" height="75">
   <img src="./src/assets/logo-tecnology/angular.svg" alt="Angular" width="75" height="75">
   <img src="./src/assets/logo-tecnology/docker.svg" alt="Docker" width="75" height="75">
-  <img src="./src/assets/logo-tecnology/nodejs.svg" alt="NodeJS" width="175" height="75">
-  <img src="./src/assets/logo-tecnology/typescript.svg" alt="TypeScript" width="175" height="75">
+  <img src="./src/assets/logo-tecnology/nodejs.svg" alt="NodeJS" width="75" height="75">
+  <img src="./src/assets/logo-tecnology/typescript.svg" alt="TypeScript" width="75" height="75">
 </p>
 
 <h2>🚀 Getting Started</h2>
