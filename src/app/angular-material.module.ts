@@ -42,16 +42,6 @@ import { MatDatepickerModule } from '@angular/material/datepicker';
 import { MatTooltipModule } from '@angular/material/tooltip';
 import { MatDialogModule } from '@angular/material/dialog';
 import { MatSlideToggleModule } from '@angular/material/slide-toggle';
-import {
-  NgxMatDateAdapter,
-  NgxMatDateFormats,
-  NgxMatDatetimePickerModule,
-  NGX_MAT_DATE_FORMATS,
-} from '@angular-material-components/datetime-picker';
-import { NgxMatMomentAdapter } from '@angular-material-components/moment-adapter';
-import { MAT_MOMENT_DATE_ADAPTER_OPTIONS } from '@angular/material-moment-adapter';
-import { MatTimepickerModule } from 'mat-timepicker';
-
 
 const materialModules = [
   MatCardModule,
@@ -88,37 +78,12 @@ const materialModules = [
   MatDatepickerModule,
   MatTooltipModule,
   MatSlideToggleModule,
-  NgxMatDatetimePickerModule,
-  MatTimepickerModule,
   MatNativeDateModule,
 ];
-
-const MY_NGX_DATE_FORMATS: NgxMatDateFormats = {
-  parse: {
-    dateInput: 'l, LTS',
-  },
-  display: {
-    dateInput: 'DD/MM/yyyy HH:mm',
-    monthYearLabel: 'MMM YYYY',
-    dateA11yLabel: 'LL',
-    monthYearA11yLabel: 'MMMM YYYY',
-  },
-};
 
 @NgModule({
   imports: [CommonModule, ...materialModules],
   exports: [...materialModules],
-  providers: [
-    {
-      provide: NgxMatDateAdapter,
-      useClass: NgxMatMomentAdapter, //Moment adapter
-      deps: [MAT_DATE_LOCALE, MAT_MOMENT_DATE_ADAPTER_OPTIONS],
-    },
-    {
-      provide: MAT_FORM_FIELD_DEFAULT_OPTIONS,
-      useValue: { floatLabel: 'always' },
-    },
-    { provide: NGX_MAT_DATE_FORMATS, useValue: MY_NGX_DATE_FORMATS },
-  ],
+  providers: []
 })
-export class AngularMaterialModule { }
+export class AngularMaterialModule {}
