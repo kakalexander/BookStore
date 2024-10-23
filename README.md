@@ -1,4 +1,4 @@
-#BookStore<br>
+<h1>BookStore</h1><br>
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.10.
 
 BookStore is a web application developed to offer an intuitive and efficient online book purchasing experience. Using modern technologies such as Angular for the front-end and NestJS for the back-end, the project aims to create a robust and scalable platform.
